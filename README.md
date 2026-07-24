@@ -18,15 +18,9 @@ The current implementation provides:
 - best-stable-state restoration and GPU resource diagnostics.
 
 The reusable implementation is under [`training_modules/`](training_modules/).
-The main module-driven experiment entry point is
+The main module-driven experiment entry point is layerwise_experiment_runner.ipynb.
 [`layerwise_experiment_runner.ipynb`](layerwise_experiment_runner.ipynb).
-
-## Repository scope
-
-Generated MCMC arrays, trained checkpoints, run logs, and locally stored
-papers are intentionally excluded from Git. Paths to these artifacts are
-configured by the experiment runner and can point to scratch storage on an
-HPC system.
+residual_sr_layerwise_pipeline.ipynb is the experimental draft that needs further cleanup.
 
 ## Current limitation
 
